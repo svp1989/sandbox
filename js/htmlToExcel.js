@@ -1,5 +1,5 @@
 /**
- * класс создания excel из html table
+ * класс создания excel из html таблицы
  * @type object
  *         tableId: string, - id таблицы из которой берем данные
  *         fileName: string, - имя под которым файл будет загружен
