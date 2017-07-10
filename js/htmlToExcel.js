@@ -23,7 +23,7 @@ var htmlToExcel = {
     createElement: function () {
         var a = document.createElement('a'),
             dataType = 'data:application/vnd.ms-excel;base64,',
-            tableHtml = '<html><head><meta http-equiv="content-type" content="text/html; charset='+charset+'" /></head>' +
+            tableHtml = '<html><head><meta http-equiv="content-type" content="text/html; charset='+this.charset+'" /></head>' +
                 '<body>' + document.getElementById(this.tableId).outerHTML + '</body>' +
                 '</html>';
 
