@@ -3,7 +3,7 @@
       **example use :**        
 ```javascript
         $(document).on('click', '#downloadExcel', function () {
-            htmlToExcel.download('unMarkListExcelDownloader', 'exportListClients.xlsx');
+            htmlToExcel.download('idTable', 'fileName.xlsx');
         });
         
 ```
