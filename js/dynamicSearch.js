@@ -6,7 +6,6 @@
          *              <li>Test 2</li>
          *          </ul>
          *
-         * @start :
          *          dynamicSearch.idSearch = 'search';
          *          dynamicSearch.idList = 'list';
          *          dynamicSearch.start();
