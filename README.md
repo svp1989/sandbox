@@ -7,4 +7,9 @@
         });
         
 ```
-        
+**or ES6:**
+```javascript
+     downloadExcel.onclick = () => {
+          htmlToExcel.download('idTable', 'fileName.xlsx');
+     }
+```
